@@ -1,4 +1,4 @@
-import Validator from './basic';
+import Validator from './Validator';
 
 console.log('worked');
 
@@ -12,7 +12,7 @@ const maria6 = new Validator('maria_');
 const maria7 = new Validator('ma-ria');
 const maria8 = new Validator('mar_ia');
 const maria9 = new Validator('mar1ia');
-const maria10 = new Validator('ma1rr11ia');
+const maria10 = new Validator('ma1r11ia');
 const maria11 = new Validator('mar123ia');
 const maria12 = new Validator('mar1234ia');
 const maria13 = new Validator('mar-1_ia');
